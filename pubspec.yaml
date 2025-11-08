@@ -1,0 +1,34 @@
+name: relief_dental_app
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: ^10.7.0
+  supabase_flutter: ^2.5.0
+  google_fonts: ^6.2.1
+  add_2_calendar: ^3.0.0 # <-- ADD THIS
+  url_launcher: ^6.2.6
+  async: ^2.11.0
+  lottie: ^3.1.0
+  file_picker: ^6.1.1 # For selecting the image file
+  image_picker: ^1.0.4
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # This section is correct.
+  # You still need this 'assets' entry for your
+  # background.jpg file to load properly.
+  assets:
+    - assets/images/
+    - assets/animations/
